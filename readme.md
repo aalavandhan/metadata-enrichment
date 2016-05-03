@@ -9,3 +9,6 @@ It expects the grobid and geotropic servers to be running in the defined ports.
 python main.py <PATH TO FILES>
 
 ```
+##Metadata Evaluation
+
+Evaluation script runs compositeNER tika parser to run NER and save metadata in elastic search
